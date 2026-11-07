@@ -175,13 +175,13 @@ export default function Home() {
   };
 
   const stack = [
-    { name: "Python / FastAPI", icon: FaPython, category: "Backend & Systems" },
-    { name: "Next.js / React", icon: SiNextdotjs, category: "Frontend Engineering" },
-    { name: "TypeScript", icon: SiTypescript, category: "Core Language" },
-    { name: "Tailwind CSS", icon: SiTailwindcss, category: "UI Architecture" },
-    { name: "PostgreSQL", icon: SiPostgresql, category: "Database & ORM" },
-    { name: "Three.js / WebGL", icon: SiThreedotjs, category: "3D Graphics" },
-    { name: "Docker", icon: FaDocker, category: "Containerization" },
+    { name: "Make.com", icon: Cpu, category: "Workflow Automation" },
+    { name: "n8n Automations", icon: Terminal, category: "Low-Code/No-Code" },
+    { name: "OpenAI & Anthropic", icon: Sparkles, category: "LLM & AI Models" },
+    { name: "Python / FastAPI", icon: FaPython, category: "Backend & APIs" },
+    { name: "TensorFlow / PyTorch", icon: Code2, category: "Machine Learning" },
+    { name: "Next.js / React", icon: SiNextdotjs, category: "Frontend Web" },
+    { name: "Docker & PostgreSQL", icon: FaDocker, category: "Infrastructure" },
   ];
 
   const doubleStack = [...stack, ...stack];
